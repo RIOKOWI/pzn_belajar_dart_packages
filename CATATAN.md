@@ -13,3 +13,9 @@ KEUNTUNGAN MENGGUNAKAN DART PACKAGES
 perintah :
 dart create--template=package-simple pzn_belajar_dart_library
 
+## STRUKTUR DIRECTORY PACKAGES
+
+- salah satu keuntungan menggunakan packages adalah, struktur directory yang standard untuk project di Dart
+- secara minimal, saat kita membuat dart packages, hanya butuh file pubspec.yaml dan folder lib
+- pubspec.yaml digunakan untuk konfigurasi dart packages nya, sedangkan folder lib untuk menyimpan kode program dart kita
+- Namun saat kita membuat project menggunakan perintah dart create, struktur direktorinya lebih kompleks
