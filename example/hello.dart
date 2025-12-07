@@ -1,4 +1,4 @@
-import 'package:pzn_belajar_dart_library/hello.dart'; // import library
+import '../lib/hello.dart'; // import library
 
 void main(){
   print(sayHello("rio"));

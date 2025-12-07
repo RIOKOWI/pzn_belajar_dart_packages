@@ -1,4 +1,4 @@
-import 'package:pzn_belajar_dart_library/pzn_belajar_dart_library.dart';
+import '../lib/pzn_belajar_dart_library.dart';
 import 'package:test/test.dart';
 
 void main() {
