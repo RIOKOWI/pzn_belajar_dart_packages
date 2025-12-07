@@ -35,3 +35,13 @@ INITINYA :
 
 contoh di file :
 LIBRARY\pzn_belajar_dart_library\lib\src\pzn_belajar_dart_library_base.dart
+
+## PUBSPEC
+
+- saat kita membuat dart packages, hal yang paling utama adalah file pubspec.yaml
+- pubspec.yaml merupakan konfigurasi dari dart packages
+- di dalam pubspec, kita perlu tentukan nama dart packages yang kita buat, termasuk dependency yang kita butuhkan di dart package tersebut
+
+contoh di file :
+pubspec.yaml
+LIBRARY\pzn_belajar_dart_library\pubspec.yaml
