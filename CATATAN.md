@@ -22,3 +22,16 @@ dart create--template=package-simple pzn_belajar_dart_library
 - secara minimal, saat kita membuat dart packages, hanya butuh file pubspec.yaml dan folder lib
 - pubspec.yaml digunakan untuk konfigurasi dart packages nya, sedangkan folder lib untuk menyimpan kode program dart kita
 - Namun saat kita membuat project menggunakan perintah dart create, struktur direktorinya lebih kompleks
+
+DIRECTORY SRC
+- salah satu best practice di dart packages adalah, tidak mengekspos kode dart kecuali memang dibutuhkan
+- dan salah satu best practic yang dilakukan di dart packages, biasanya kode program dart akan di tempatkan di folder src di dalam folder lib
+- semua kode program dart di dalam src, secara default tidak di ekspos ke luar
+- ketika kita butuh mengekspos keluar (artinya bisa diakses oleh project lain), maka biasanya dilakukan secara eksplisit di kode dart di dalam folder lib
+
+INITINYA :
+- kalo code internal (tidak perlu di ekspos ke luar) simpan di src 
+- kalo code external (perlu di ekspos ke luar) simpan di lib 
+
+contoh di file :
+LIBRARY\pzn_belajar_dart_library\lib\src\pzn_belajar_dart_library_base.dart
