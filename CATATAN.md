@@ -72,3 +72,6 @@ LIBRARY\pzn_belajar_dart_library\example\hello.dart
 - hal yang perlu kita lakukan ketika upgrade library adalah, menaikkan versi dari packages di file
 pubspec.yaml
 - jika menggunakan Git, disarankan untuk menambah tag baru untuk versi baru
+
+contoh di file :
+lib\src\say_hello.dart
