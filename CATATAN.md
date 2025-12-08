@@ -66,3 +66,30 @@ LIBRARY\pzn_belajar_dart_library\lib\src\say_hello.dart
 LIBRARY\pzn_belajar_dart_library\lib\src\customer.dart
 LIBRARY\pzn_belajar_dart_library\lib\hello.dart
 LIBRARY\pzn_belajar_dart_library\example\hello.dart
+
+## UPGRADE PACKAGES
+- melakukan upgrade library adalah hal yang sudah biasa
+- hal yang perlu kita lakukan ketika upgrade library adalah, menaikkan versi dari packages di file
+pubspec.yaml
+- jika menggunakan Git, disarankan untuk menambah tag baru untuk versi baru
+
+contoh di file :
+lib\src\say_hello.dart
+
+## PUBLISH PACKAGES KE Pub.dev
+
+PERSIAPAN PUBLISH PACKAGES
+
+- perlu di ingat, ketika kita publish dart packages kita ke pub.dev, makan akan ada selamanya. kita tidak bisa menghapus yang sudah kita publish, karena dilakukan ketika banyak yang menggunakan dart packages kita, lalu kita hapus, maka otomatis semua project dart orang lain akan rusak.
+- selain itu, pastikan kita menambahkan LICENSE file dan ukuran dart packages kita tidak lebih dari 100MB
+
+DRY RUN
+
+- sebelum publish packages kita, kita bisa mencoba memastikan tidak ada masalah, dengan mencoba dry run, caranya gunakan perintah :
+    dart pub publish --dry-run
+
+PUBLISH PACKAGES
+
+- jika sudh tidak ada masalah dengan dart packages kita, kita bisa publish ke pub.dev dengan perintah :
+    dart pub publish
+- ketika pertama kali publish, biasanya kita akan diminta untuk login menggunakan google account
