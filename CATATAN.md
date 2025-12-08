@@ -84,5 +84,6 @@ PERSIAPAN PUBLISH PACKAGES
 - selain itu, pastikan kita menambahkan LICENSE file dan ukuran dart packages kita tidak lebih dari 100MB
 
 DRY RUN
+
 - sebelum publish packages kita, kita bisa mencoba memastikan tidak ada masalah, dengan mencoba dry run, caranya gunakan perintah :
-    dart pub publixh --dry-run
+    dart pub publish --dry-run
