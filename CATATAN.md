@@ -66,3 +66,9 @@ LIBRARY\pzn_belajar_dart_library\lib\src\say_hello.dart
 LIBRARY\pzn_belajar_dart_library\lib\src\customer.dart
 LIBRARY\pzn_belajar_dart_library\lib\hello.dart
 LIBRARY\pzn_belajar_dart_library\example\hello.dart
+
+## UPGRADE PACKAGES
+- melakukan upgrade library adalah hal yang sudah biasa
+- hal yang perlu kita lakukan ketika upgrade library adalah, menaikkan versi dari packages di file
+pubspec.yaml
+- jika menggunakan Git, disarankan untuk menambah tag baru untuk versi baru
